@@ -1,0 +1,73 @@
+/* General styling for the Dashboard component */
+.transection-area {
+    padding: 20px;
+  }
+  
+  .transection-area h1, .transection-area h2 {
+    color: #1d448b;
+  }
+  
+  /* Carousel styling to cover the whole width of the page */
+  .dashboard-container {
+    margin: 0;
+    padding: 0;
+  }
+ /* Carousel Container */
+.carousel-container {
+    width: 100%;
+  }
+  
+  .carousel-item img {
+    height: auto;
+    max-height: 400px; /* Set a max height if desired */
+    width: 100%;
+  }
+  
+  /* Custom button styling */
+  .custom-button {
+    background-color: #1d448b;
+    border-color: #1d448b;
+    margin-right: 10px;
+  }
+  
+  .custom-button:hover {
+    background-color: #163570;
+    border-color: #163570;
+  }
+  
+  .btn-group .btn {
+    margin-right: 5px;
+  }
+  
+  /* Centering content */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Table styling */
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  /* Modal styling */
+  .modal-header {
+    background-color: #1d448b;
+    color: white;
+  }
+  
+  .modal-footer .btn-primary {
+    background-color: #1d448b;
+    border-color: #1d448b;
+  }
+  
+  .modal-footer .btn-primary:hover {
+    background-color: #163570;
+    border-color: #163570;
+  }
+  .span{
+    color: #c02720
+  }
